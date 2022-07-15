@@ -1236,40 +1236,7 @@
               "value" : "default"
             }
           },
-          "eventMappings" : [ {
-            "eventMappingId" : "clffkeeeeenvaabbgglddbhheeiiddplpccccjj",
-            "isConfiguration" : false,
-            "offRowStorageId" : null,
-            "sourceEventApiName" : "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
-            "sourceEventCorrelationId" : null,
-            "sourceEventDefinition" : {
-              "apiName" : "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
-              "id" : null,
-              "type" : "UXEVENT"
-            },
-            "sourceEventSysId" : null,
-            "targets" : [ {
-              "broker" : null,
-              "clientScript" : null,
-              "conditional" : null,
-              "declarativeAction" : null,
-              "event" : {
-                "apiName" : "x_58872_needit.CONTENT_UPDATED_RELAY_15e3ffb20724111044c7f6fd7c1ed0d7",
-                "payload" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : {
-                    "params" : {
-                      "sys_id" : "none"
-                    }
-                  }
-                },
-                "sysId" : "b53ae66b97a45110b2167b771153af4c"
-              },
-              "operation" : null,
-              "targetId" : "clffkeeieeoaaabbgguddbhheejaqhddpggz",
-              "type" : "EVENT"
-            } ]
-          } ],
+          "eventMappings" : [ ],
           "slot" : null,
           "definition" : {
             "id" : "d24d53f60350de7a652caf3188a46ed2",
@@ -1946,81 +1913,10 @@
   "styles" : {
     "width" : "100%"
   }
-}, {
-  "elementId" : "table_get_no_defaults_1",
-  "elementLabel" : "Table GET no defaults 1",
-  "propertyValues" : {
-    "userName" : {
-      "type" : "JSON_LITERAL",
-      "value" : "Nick"
-    },
-    "tableName" : {
-      "type" : "JSON_LITERAL",
-      "value" : "sys_user"
-    },
-    "limit" : {
-      "type" : "JSON_LITERAL",
-      "value" : 25
-    },
-    "fields" : {
-      "type" : "JSON_LITERAL",
-      "value" : "first_name, last_name"
-    },
-    "queries" : {
-      "type" : "JSON_LITERAL",
-      "value" : "active=true"
-    },
-    "unSnake" : {
-      "type" : "JSON_LITERAL",
-      "value" : true
-    },
-    "thFontSize" : {
-      "type" : "JSON_LITERAL",
-      "value" : "16px"
-    },
-    "tdFontSize" : {
-      "type" : "JSON_LITERAL",
-      "value" : "12px"
-    },
-    "tdBorder" : {
-      "type" : "JSON_LITERAL",
-      "value" : "1px solid lightgray"
-    },
-    "tableStyles" : {
-      "type" : "JSON_LITERAL",
-      "value" : "{}"
-    },
-    "thStyles" : {
-      "type" : "JSON_LITERAL",
-      "value" : "{}"
-    },
-    "tdStyles" : {
-      "type" : "JSON_LITERAL",
-      "value" : "{}"
-    },
-    "containerStyles" : {
-      "type" : "JSON_LITERAL",
-      "value" : "{}"
-    }
-  },
-  "eventMappings" : [ ],
-  "slot" : null,
-  "definition" : {
-    "id" : "bb7e302e19ab6f83dc38026e88482a22",
-    "type" : "MACROPONENT"
-  },
-  "overrides" : null,
-  "isHidden" : {
-    "type" : "JSON_LITERAL",
-    "value" : null
-  },
-  "isHero" : false,
-  "isNonDestructive" : false,
-  "styles" : { }
 } ]</composition>
         <da_relay_models/>
         <data>[ ]</data>
-        <dispatched_events>b53ae66b97a45110b2167b771153af4c,6208aa6797a45110b2167b771153afa1</dispatched_events>
+        <dispatched_events/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -2030,7 +1926,7 @@
   "default" : {
     "children" : null,
     "isInline" : null,
-    "items" : [{"element_id":"header_row","styles":{}},{"element_id":"table_get_no_defaults_1","styles":{}},{"element_id":"reports_row","styles":{}},{"element_id":"list_row","styles":{}},{"element_id":"search_container","styles":{}}],
+    "items" : [{"element_id":"header_row","styles":{}},{"element_id":"reports_row","styles":{}},{"element_id":"list_row","styles":{}},{"element_id":"search_container","styles":{}}],
     "root" : null,
     "rules" : null,
     "styles" : {"flex-direction":"column"},
@@ -2071,15 +1967,15 @@
         <state_properties>[ ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-11 19:14:29</sys_created_on>
-        <sys_id>15e3ffb20724111044c7f6fd7c1ed0d7</sys_id>
-        <sys_mod_count>39</sys_mod_count>
+        <sys_created_on>2022-07-12 20:34:21</sys_created_on>
+        <sys_id>60cf495797e01110b2167b771153af41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_ux_macroponent_15e3ffb20724111044c7f6fd7c1ed0d7</sys_update_name>
+        <sys_update_name>sys_ux_macroponent_60cf495797e01110b2167b771153af41</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-13 21:48:03</sys_updated_on>
+        <sys_updated_on>2022-07-12 20:34:21</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
